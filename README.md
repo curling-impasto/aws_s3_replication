@@ -17,7 +17,7 @@ This repository contains Terraform code to automate the creation and replication
   Includes an example of a read-only bucket policy for secure access (see `main.tf` for implementation).
 
 - **Architecture Diagram:**
-  ![Architecture Diagram](assets/arch.png)
+  ![Architecture Diagram](./assets/s3_replication.png)
 
 ## Resources Created
 
