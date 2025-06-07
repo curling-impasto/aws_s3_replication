@@ -1,6 +1,6 @@
 
 module "test_source_bucket" {
-  source = "../../../../modules/create_source_bucket"
+  source = "../../modules/create_source_bucket"
 
   source_bucket_name             = "test-replication-source"
   source_replication_policy_name = "test-replication-policy"

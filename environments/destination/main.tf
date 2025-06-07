@@ -1,7 +1,7 @@
 
 # Source Bucket to act as Destination for Custoemer
 module "target_bucket" {
-  source = "../../../../modules/create_destination_bucket"
+  source = "../../modules/create_destination_bucket"
 
   bucket_name      = "store-destination"
   customer         = "sample"
